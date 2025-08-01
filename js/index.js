@@ -87,7 +87,7 @@ function loadAllAlignments(file) {
         msa: MSAProcessor({ fasta: fasta, hasConsensus: true }),
         annotations: annotations,
         alterations: alterations,
-        colorSchema: "clustal",
+        colorSchema: "clustal2",
       });
 
       // Calculate and display the alignment score report
