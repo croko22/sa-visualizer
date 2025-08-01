@@ -45,7 +45,7 @@ const alignmentFiles = [
 ];
 
 // Available models - all models use the same alignment files
-const models = ["EdgeAlign", "MLP", "NeedlemanWunsch"];
+const models = ["EdgeAlign", "XGBoost", "NeedlemanWunsch"];
 
 /**
  * Loads alignments for a given file from all available models.
